@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../account.css" />
+  </head>
+
+  <body>
+    <div class="account-box" id="register">
+      <h2>Register</h2>
+      <form onsubmit="">
+        <div class="user-box">
+          <input id="email" type="text" name="" placeholder="Email" />
+        </div>
+        <div class="user-box">
+          <input
+            id="numberPhone"
+            type="number"
+            name=""
+            placeholder="So dien thoai"
+          />
+        </div>
+        <div class="user-box">
+          <input id="password" type="password" name="" placeholder="Password" />
+        </div>
+        <div class="user-box">
+          <input
+            id="re_password"
+            type="password"
+            name=""
+            placeholder="Nhap lai Password"
+          />
+        </div>
+        <div class="selector">
+          <a class="account" href="../login/login.html">Bạn đã có tài khoản?</a>
+          <button id="btn_register" onclick="" type="submit" class="btn">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+    <script src="register.js"></script>
+  </body>
+</html>
